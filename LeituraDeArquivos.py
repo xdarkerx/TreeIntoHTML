@@ -35,7 +35,7 @@ def tree_to_html(root, folder):
 
   
 # Exemplo de uso:
-root = r"C:/Users/Penso/vBox/Team Shares"
+root = r"C:/Users/"
 html_tree = tree_to_html(root, root)
 
 # Adiciona Bootstrap e CSS personalizado ao arquivo HTML
@@ -66,7 +66,7 @@ a.toggle:before {
 }
 """
 
-with open("C:/Users/Penso/Desktop/tree.html", "w", encoding="utf-8") as f:
+with open("C:/Users/tree.html", "w", encoding="utf-8") as f:
     f.write("<html>\n<head>\n")
     f.write("<meta name='viewport' content='width=device-width, initial-scale=1'>\n")
     f.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>\n")
